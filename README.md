@@ -1,6 +1,6 @@
-[![Header](https://github.com/FatB0YY/FatB0YY/blob/main/assets/logo.jpg)](https://fl-rodion.ru)
+[![Header](https://user-images.githubusercontent.com/60257066/113480769-bc4f7680-949e-11eb-850c-b0a11727a230.JPG)](https://fl-rodion.ru)
 
-## I'm a beginner front-end developer.
+## I'm a front-end developer.
 
 ### Languages and Tools
 
@@ -21,3 +21,4 @@
 ### My Statistics
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=FatB0YY&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
