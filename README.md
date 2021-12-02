@@ -7,7 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-151724?style=for-the-badge&logo=JavaScript&logoColor=E9D54D)
 ![NodeJS](https://img.shields.io/badge/-NodeJS-151724?style=for-the-badge&logo=NODEJS&logoColor=E9D54D)
 ![C++](https://img.shields.io/badge/-C++-151724?style=for-the-badge&logo=C%2b%2b&logoColor=6296CC)
-![ASP.NET Core](https://img.shields.io/badge/-ASP.NETCore-151724?style=for-the-badge&logo=NODEJS&logoColor=E9D54D)
+![ASP.NET Core](https://img.shields.io/badge/-ASP.NET Core-151724?style=for-the-badge&logo=NODEJS&logoColor=E9D54D)
 
 ### Follow Me
 
