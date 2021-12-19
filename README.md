@@ -1,4 +1,4 @@
-[![Header](https://user-images.githubusercontent.com/60257066/113480769-bc4f7680-949e-11eb-850c-b0a11727a230.JPG)](https://fl-rodion.ru)
+[![Header](https://avatars.githubusercontent.com/u/60257066?s=400&u=c8cd2d3679bf5773614fc3640788b0a2be56248a&v=4)]
 
 ## I'm a front-end developer.
 
