@@ -1,6 +1,6 @@
-### 👋 Hi there, I'm Rodion
-<br/>
-
-#### I'm a FrontEnd Developer and a KFU student.
+## 👋🏻 Hi, my name is **Rodion Ramazanov**!
+### I'm a *Front-end developer* from Kazan and a *KFU student*.
+### ✉️ Mail me: rodion-web@yandex.ru
+### 🌐 Telegram, Instagram: @iamrodionn
 
 
