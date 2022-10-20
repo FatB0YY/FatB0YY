@@ -3,4 +3,5 @@
 ### ✉️ Mail me: rodion-web@yandex.ru
 ### 🌐 Telegram, Instagram: @iamrodionn
 
+### ![Ссылка на резюме]([Uploading РамазановРодион.pdf…]
 
