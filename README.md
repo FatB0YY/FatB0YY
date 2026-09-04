@@ -1,10 +1,10 @@
 # Hi, I'm **Rodion Ramazanov** 👋
 
-**Frontend Engineer**
+**Full-stack Engineer**
 
-Building production-grade web applications with **React, TypeScript, and Next.js**.
+Building production-grade web applications with **React, TypeScript, and Node.js**.
 
-I focus on frontend architecture, performance, developer experience, and structured AI-assisted engineering workflows with **Claude Code** and **Codex**.
+I focus on frontend architecture, performance, developer experience, and structured AI-assisted engineering workflows with **Claude Code**.
 
 ### Connect
 
