@@ -1,6 +1,6 @@
 # Hi, I'm **Rodion Ramazanov** 👋
 
-**Frontend Engineer | AI-Native Development**
+**Frontend Engineer**
 
 Building production-grade web applications with **React, TypeScript, and Next.js**.
 
