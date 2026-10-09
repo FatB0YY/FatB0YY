@@ -1,5 +1,11 @@
 # Hi, I'm **Rodion Ramazanov** 👋
 
+### Connect
+
+* Telegram: [@iamrodionn](https://t.me/iamrodionn)
+* Email: [rodion.rm111@icloud.com](mailto:rodion.rm111@icloud.com)
+* GitHub: [FatB0YY](https://github.com/FatB0YY)
+
 **Full-stack Engineer**
 
 Building production-grade web applications with **React, TypeScript, and Node.js**.
@@ -41,9 +47,3 @@ Complete applications, from frontend architecture and testing to APIs, databases
 * **[CLOUD-STORAGE](https://github.com/FatB0YY/CLOUD-STORAGE)** — Google Drive-style file storage: React + RTK Query client, Express + MongoDB API, JWT access/refresh tokens with silent refresh via Axios interceptors, nested folders and search.
 * **[SQUAD](https://github.com/FatB0YY/SQUAD)** — Team collaboration app on Next.js App Router: servers, channels, real-time messaging and file sharing, with Auth.js OAuth, Prisma + serverless Postgres, typed i18n, Zod validation and Sentry.
 * **[MEHN-stack_coursesApp](https://github.com/FatB0YY/MEHN-stack_coursesApp)** — Server-rendered course marketplace on MongoDB, Express, Handlebars and Node.js: session-cookie auth, CSRF protection, route guards, email password reset and server-side validation.
-
-### Connect
-
-* Telegram: [@iamrodionn](https://t.me/iamrodionn)
-* Email: [rodion.rm111@icloud.com](mailto:rodion.rm111@icloud.com)
-* GitHub: [FatB0YY](https://github.com/FatB0YY)
