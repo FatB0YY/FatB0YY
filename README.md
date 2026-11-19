@@ -19,7 +19,7 @@ Mechanisms that usually stay hidden inside a framework or runtime, rebuilt from 
 
 ## Integrations & production solutions
 
-How I handle authentication flows, third-party widgets and embedded apps in production.
+Problems that come up in real products — authentication flows, third-party widgets, embedding an app into a page you don't control.
 
 - **[auth-demo-httpOnly-cookies](https://github.com/FatB0YY/auth-demo-httpOnly-cookies)** — When several API calls receive a 401 at once, an Axios interceptor queues them behind one token refresh and replays them. The demo includes HttpOnly cookies, TanStack Router guards and redirect-loop handling.
 - **[third-party-auth-integration](https://github.com/FatB0YY/third-party-auth-integration)** — An external provider owns the user's identity while the application backend owns the session. The Next.js app exchanges provider tokens for a backend session, refreshes them and chains middleware to guard private routes.
