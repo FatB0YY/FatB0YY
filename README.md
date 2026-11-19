@@ -1,49 +1,43 @@
-# Hi, I'm **Rodion Ramazanov** 👋
+# Hi, I'm Rodion Ramazanov 👋
 
-### Connect
+[Telegram @iamrodionn](https://t.me/iamrodionn) · [rodion.rm111@icloud.com](mailto:rodion.rm111@icloud.com) · [GitHub @FatB0YY](https://github.com/FatB0YY)
 
-* Telegram: [@iamrodionn](https://t.me/iamrodionn)
-* Email: [rodion.rm111@icloud.com](mailto:rodion.rm111@icloud.com)
-* GitHub: [FatB0YY](https://github.com/FatB0YY)
+**Fullstack Developer & LLM Engineer**
 
-**Full-stack Engineer**
+I build React and TypeScript frontends and Node.js APIs with Express and NestJS. My web work includes frontend architecture, performance and third-party integrations.
 
-Building production-grade web applications with **React, TypeScript, and Node.js**.
+**I work on LLM inference and model serving, and I’m interested in retrieval-augmented generation (RAG) and agents that use external tools. I plan to share code walkthroughs on reducing inference latency, measuring retrieval quality, and testing how reliably agents choose and use tools.**
 
-I focus on frontend architecture, performance, developer experience, and structured AI-assisted engineering workflows with **Claude Code**.
-
-### Under the hood
+## Under the hood
 
 Mechanisms that usually stay hidden inside a framework or runtime, rebuilt from scratch or taken apart to show how they actually work.
 
-* **[custom-rendering-strategies](https://github.com/FatB0YY/custom-rendering-strategies)** — CSR, App Shell, SSG, partial SSG, ISR, SSR, streaming SSR and SSI implemented without a framework: the low-level mechanics Next.js hides.
-* **[yieldpoint-cooperative-scheduler](https://github.com/FatB0YY/yieldpoint-cooperative-scheduler)** — Cooperative multitasking in TypeScript with zero dependencies: generator tasks mark their own yield points, and a round-robin scheduler pauses them on one shared time budget. The machinery behind React's scheduler and `scheduler.yield()`.
-* **[sync-promise](https://github.com/FatB0YY/sync-promise)** — A Promise-like implementation that runs handlers synchronously, without microtasks: state machine, chaining, error propagation, thenable assimilation and self-resolution protection.
-* **[react-compiler-under-the-hood](https://github.com/FatB0YY/react-compiler-under-the-hood)** — What React Compiler actually emits for a React 19 component: cache slots, sentinel checks and per-node guards that replace `memo()`, next to the hand-written `useMemo` / `useCallback` / `memo` version.
-* **[type-challenges-solutions](https://github.com/FatB0YY/type-challenges-solutions)** — TypeScript's built-in utilities (`Pick`, `Readonly`, `Exclude`, `Parameters`, `ReturnType`) reimplemented at the type level, plus tuple manipulation, each with an explanation.
+- **[custom-rendering-strategies](https://github.com/FatB0YY/custom-rendering-strategies)** — CSR, App Shell, SSG, partial SSG, ISR, SSR, streaming SSR and SSI **implemented without a framework**: the low-level mechanics Next.js hides.
+- **[yieldpoint-cooperative-scheduler](https://github.com/FatB0YY/yieldpoint-cooperative-scheduler)** — Cooperative multitasking in TypeScript with zero dependencies: generator tasks mark their own yield points, and a round-robin scheduler pauses them on one shared time budget. The machinery behind React's scheduler and `scheduler.yield()`.
+- **[sync-promise](https://github.com/FatB0YY/sync-promise)** — A Promise-like **finite-state machine** that runs handlers synchronously, without queuing microtasks.
+- **[react-compiler-under-the-hood](https://github.com/FatB0YY/react-compiler-under-the-hood)** — What React Compiler actually emits for a React 19 component, side by side with the hand-memoized version. The annotated compiler output shows the cache slots, sentinel checks and guards that replace hand-written `useMemo`, `useCallback` and `memo`.
 
-### Integrations & production solutions
+## Integrations & production solutions
 
-Problems that come up in real products — authentication flows, third-party widgets, embedding an app into a page you don't control — and how they were solved.
+Problems that come up in real products — authentication flows, third-party widgets, embedding an app into a page you don't control.
 
-* **[auth-demo-httpOnly-cookies](https://github.com/FatB0YY/auth-demo-httpOnly-cookies)** — JWT auth on httpOnly cookies: an Axios interceptor with silent token refresh and a request queue, TanStack Router route guards, a redirect-loop guard, and the backend contract it relies on.
-* **[third-party-auth-integration](https://github.com/FatB0YY/third-party-auth-integration)** — Authentication against an external provider in Next.js: token acquisition and refresh, session exchange with a first-party backend, and a composable middleware chain for private routes.
-* **[iframe-react-integration](https://github.com/FatB0YY/iframe-react-integration)** — Embedding a Next.js app into a website-builder page you don't control: one iframe relocated between popup slots instead of recreated, popup state detection via `MutationObserver` with rAF batching, and a two-way `postMessage` protocol with origin validation.
-* **[cloudpayments-react-integration](https://github.com/FatB0YY/cloudpayments-react-integration)** — The CloudPayments payment widget in Next.js App Router: external script loading, mount/unmount lifecycle, SSR guards, blocked-script handling, typed init params and fiscal receipt data.
+- **[auth-demo-httpOnly-cookies](https://github.com/FatB0YY/auth-demo-httpOnly-cookies)** — JWT auth on **httpOnly cookies**: an Axios interceptor with silent token refresh and a request queue, TanStack Router route guards, a redirect-loop guard, and the backend contract it relies on.
+- **[third-party-auth-integration](https://github.com/FatB0YY/third-party-auth-integration)** — An external provider owns the user's identity while the application backend owns the session. The Next.js app exchanges provider tokens for a backend session, refreshes them and chains middleware to guard private routes.
+- **[iframe-react-integration](https://github.com/FatB0YY/iframe-react-integration)** — Moving one iframe between Tilda popups keeps the embedded Next.js app mounted. A `MutationObserver` tracks host changes, `requestAnimationFrame` batches updates and the `postMessage` handlers validate the sender's origin.
+- **[cloudpayments-react-integration](https://github.com/FatB0YY/cloudpayments-react-integration)** — **CloudPayments PaymentBlocks** in Next.js App Router. The form mounts the widget in the browser, shows a fallback if the script is blocked, and cleans up on unmount. Payment and fiscal receipt data are typed.
 
-### Frontend & full-stack applications
+## Full-stack applications
 
-Complete applications, from frontend architecture and testing to APIs, databases and infrastructure.
+- **[BIKE_FORCE](https://github.com/FatB0YY/BIKE_FORCE)** — A server-rendered bicycle store and a React admin panel share an Express API and a normalized PostgreSQL schema to 3NF. RTK Query handles catalog updates.
+- **[CLOUD-STORAGE](https://github.com/FatB0YY/CLOUD-STORAGE)** — A React file browser with uploads, nested folders and file search. An Express API handles file operations and stores metadata in MongoDB.
+- **[SQUAD](https://github.com/FatB0YY/SQUAD)** — A Next.js collaboration app with channels, membership roles and file sharing. It uses Auth.js and Prisma with PostgreSQL and includes a Socket.IO chat server.
 
-* **[MIDDLE-PROJECT](https://github.com/FatB0YY/MIDDLE-PROJECT)** — Production-grade React article platform: Feature-Sliced Design enforced by a custom ESLint plugin, unit / component / visual regression tests, Storybook, i18n, feature flags with automated cleanup, dual Webpack + Vite builds and CI.
-* **[BIKE_FORCE](https://github.com/FatB0YY/BIKE_FORCE)** — Full-stack bicycle store: Express + TypeScript API over a PostgreSQL schema normalised to 3NF, server-side rendered storefront, React + RTK Query admin panel, nginx and Docker Compose.
-* **[CLOUD-STORAGE](https://github.com/FatB0YY/CLOUD-STORAGE)** — Google Drive-style file storage: React + RTK Query client, Express + MongoDB API, JWT access/refresh tokens with silent refresh via Axios interceptors, nested folders and search.
-* **[SQUAD](https://github.com/FatB0YY/SQUAD)** — Team collaboration app on Next.js App Router: servers, channels, real-time messaging and file sharing, with Auth.js OAuth, Prisma + serverless Postgres, typed i18n, Zod validation and Sentry.
-* **[MEHN-stack_coursesApp](https://github.com/FatB0YY/MEHN-stack_coursesApp)** — Server-rendered course marketplace on MongoDB, Express, Handlebars and Node.js: session-cookie auth, CSRF protection, route guards, email password reset and server-side validation.
+## Frontend applications
 
-### React: hooks and new APIs
+- **[MIDDLE-PROJECT](https://github.com/FatB0YY/MIDDLE-PROJECT)** — Production-grade React article platform with a custom ESLint plugin that enforces Feature-Sliced Design boundaries. Storybook, component tests, visual regression tests and feature flags support UI changes, i18n and CI.
+- **[MFE-PEOPLE-HUB](https://github.com/FatB0YY/MFE-PEOPLE-HUB)** — A Module Federation host loads two React micro-frontends independently. They share profile updates through typed events, and one can keep working when the other fails to load.
 
-Reusable hooks for everyday problems and a hands-on look at what React 19 changes.
+## React 19: hooks and new APIs
 
-* **[react-custom-hooks](https://github.com/FatB0YY/react-custom-hooks)** — 14 custom hooks: stable callbacks, leak-free event subscriptions, debounce and rAF throttling, ref composition, resize observation. Each one is documented and comes with a usage example.
-* **[react19-new-hooks](https://github.com/FatB0YY/react19-new-hooks)** — `use`, `useActionState`, `useOptimistic`, `useTransition`, `useDeferredValue`, `useEffectEvent` and the new `createRoot` error options, each shown as before vs after with both versions running live.
+- **[react-custom-hooks](https://github.com/FatB0YY/react-custom-hooks)** — 14 hooks covering stable callbacks, DOM event subscriptions, ref composition, frame throttling and resize observation.
+- **[react19-new-hooks](https://github.com/FatB0YY/react19-new-hooks)** — `use`, `useActionState`, `useOptimistic`, `useTransition`, `useDeferredValue`, `useEffectEvent` and the new `createRoot` error options, each shown as before vs after.
