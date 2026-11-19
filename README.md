@@ -10,14 +10,16 @@ My LLM work focuses on inference. I plan to publish code walkthroughs showing ho
 
 ## Under the hood
 
-I rebuild parts of frameworks and runtimes to understand the decisions they usually make for me.
+Mechanisms that usually stay hidden inside a framework or runtime, rebuilt from scratch or taken apart to show how they actually work.
 
-- **[custom-rendering-strategies](https://github.com/FatB0YY/custom-rendering-strategies)** — CSR, App Shell, SSG, partial SSG, ISR, SSR, streaming SSR and SSI implemented without Next.js. The examples show when HTML is built, when a cached page is regenerated and when the browser receives the first chunk.
-- **[yieldpoint-cooperative-scheduler](https://github.com/FatB0YY/yieldpoint-cooperative-scheduler)** — Dependency-free cooperative multitasking in TypeScript. Generator tasks mark their yield points, and a round-robin scheduler uses a shared time budget to decide when to return control to the event loop.
-- **[sync-promise](https://github.com/FatB0YY/sync-promise)** — A Promise-like state machine that runs handlers synchronously, without queuing microtasks. Tests cover chaining, error propagation, thenable assimilation and self-resolution.
-- **[react-compiler-under-the-hood](https://github.com/FatB0YY/react-compiler-under-the-hood)** — One React 19 component written with and without manual memoization. The annotated compiler output shows the cache slots, sentinel checks and guards that replace hand-written `useMemo`, `useCallback` and `memo`.
+- **[custom-rendering-strategies](https://github.com/FatB0YY/custom-rendering-strategies)** — CSR, App Shell, SSG, partial SSG, ISR, SSR, streaming SSR and SSI **implemented without a framework**: the low-level mechanics Next.js hides.
+- **[yieldpoint-cooperative-scheduler](https://github.com/FatB0YY/yieldpoint-cooperative-scheduler)** — Cooperative multitasking in TypeScript with zero dependencies: generator tasks mark their own yield points, and a round-robin scheduler pauses them on one shared time budget. The machinery behind React's scheduler and `scheduler.yield()`.
+- **[sync-promise](https://github.com/FatB0YY/sync-promise)** — A Promise-like **finite-state machine** that runs handlers synchronously, without queuing microtasks.
+- **[react-compiler-under-the-hood](https://github.com/FatB0YY/react-compiler-under-the-hood)** — What React Compiler actually emits for a React 19 component, side by side with the hand-memoized version. The annotated compiler output shows the cache slots, sentinel checks and guards that replace hand-written `useMemo`, `useCallback` and `memo`.
 
 ## Integrations & production solutions
+
+How I handle authentication flows, third-party widgets and embedded apps in production.
 
 - **[auth-demo-httpOnly-cookies](https://github.com/FatB0YY/auth-demo-httpOnly-cookies)** — When several API calls receive a 401 at once, an Axios interceptor queues them behind one token refresh and replays them. The demo includes HttpOnly cookies, TanStack Router guards and redirect-loop handling.
 - **[third-party-auth-integration](https://github.com/FatB0YY/third-party-auth-integration)** — An external provider owns the user's identity while the application backend owns the session. The Next.js app exchanges provider tokens for a backend session, refreshes them and chains middleware to guard private routes.
